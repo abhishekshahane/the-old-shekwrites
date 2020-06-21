@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    background-color: #FFFDD0;
+    margin-top: 20px;
+}
+.nav
+{
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    padding-top: 30px;
+}
+li
+{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-size: medium;
+}
+#a
+{
+    padding-right: 250px;
+    font-size: 50px;
+    color: #7289DA;
+
+}
+#b
+{
+    color : #FF4136;
+}
+#bigger
+{
+    font-size: 18px;
+    color: black;
+}
+#bigger:hover
+{
+    color: aqua;
+}
