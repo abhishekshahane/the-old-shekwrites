@@ -51,3 +51,25 @@ li
     transform-origin: right;
     transition: all ease-in-out 200ms;
 }
+#white
+{
+    margin: auto;
+    width: 70%;
+    text-transform: uppercase;
+    background-color: white;
+}
+#center
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: verdana;
+    background-color: rgb(255, 242, 172);
+    background-image: linear-gradient(to right, rgb(255, 227, 89) 0%, rgb(255, 242, 172) 100%);
+}
+#smaller
+{
+    width: 85%;
+    font-family: courier;
+    text-transform: uppercase;
+    margin: auto;
+}
