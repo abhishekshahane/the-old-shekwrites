@@ -3,16 +3,22 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Arial', serif;
-    background-color: #FFFDD0;
-    margin-top: 20px;
+    background-color: #FFF8DC;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 .nav
 {
     background-color: white;
     list-style: none;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0px 0;
     padding-top: 30px;
+    border-bottom: 7px solid aqua;
+}
+margin-top
+{
+    color: white;
 }
 li
 {
@@ -23,21 +29,25 @@ li
 }
 #a
 {
-    padding-right: 250px;
-    font-size: 50px;
-    color: #7289DA;
-
+    padding-right: 150px;
+    border-radius: 8px;
 }
+
 #b
 {
     color : #FF4136;
+    padding-bottom: 45px;
 }
 #bigger
 {
     font-size: 18px;
     color: black;
+    padding-bottom: 45px;
+    text-transform: lowercase;
 }
 #bigger:hover
 {
-    color: aqua;
+    border-top: 5px solid black;
+    transform-origin: right;
+    transition: all ease-in-out 200ms;
 }
