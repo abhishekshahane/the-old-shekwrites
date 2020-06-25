@@ -1,0 +1,37 @@
+{% extends "index.html" %}
+{% block title %}
+    Contact me!
+{% endblock %}
+<link href="style.css" rel="stylesheet">
+<link rel="icon" href="download.png">
+{% block body %}
+<ul class = "nav">
+    <li id="a"><img src="/static/download.png"></li>
+    <li><a href="/aboutme" selected id="bigger">About me</a></li>
+    <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
+    <li><a href="/contact" id="bigger">Contact me</a></li>
+    <li id="b">Made by @abhishekshahane.</li>
+</ul>
+<h1 id="center">How to Contact me!</h1>
+<table class="blueTable">
+<thead>
+<tr>
+<th>Gmail</th>
+<th>&nbsp;Discord</th>
+<th>&nbsp;Reddit</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>nintendo.spy123@gmail.com</td>
+<td>probcodingorwatchingtheofficeUS#1158</td>
+<td>u/DabTheEpic</td>
+</tr>
+</tbody>
+</table>
+{% endblock %}
