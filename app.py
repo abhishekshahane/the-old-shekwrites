@@ -12,5 +12,15 @@ def posts():
 
 @app.route("/aboutme")
 def aboutme():
-    return render_template("aboutme.html")
+    return render_template("index.html")
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+@app.route("/blogposts/cs50x")
+def cs50x():
+    return render_template("cs50x.html")
+@app.route("/blogposts/book")
+def book():
+    return render_template("book.html")
+
 
