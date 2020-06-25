@@ -2,6 +2,26 @@
 {% block title %}
     My Blog Posts
 {% endblock %}
+<link rel="icon" href="download.png">
 <link href="style.css" rel="stylesheet">
 {% block body %}
+<ul class = "nav">
+    <li id="a"><img src="/static/download.png"></li>
+    <li><a href="/aboutme" selected id="bigger">About me</a></li>
+    <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
+    <li><a href="/contact" id="bigger">Contact me</a></li>
+    <li id="b">Made by @delivey and @abhishekshahane.</li>
+</ul>
+<h1 id="center">My Blogposts!</h1>
+<div id="card">
+    <a href="/blogposts/cs50x" id="header">My experience with CS50x, and how I learned to program</a>
+    <p class="centera">Date released: 1 July 2020</p>
+    <img src="/static/cs50.jpg" id="cs50">
+</div>
+<div id="card">
+    <a href="/blogposts/book" id="header"><center>Reading a Book about British Rule</center></a>
+    <p class="centera">Date released: 11 July 2020</p>
+    <img src="/static/britishindia.jpg" id="cs50">
+</div>
 {% endblock %}
+
