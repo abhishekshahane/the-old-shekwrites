@@ -1,15 +1,25 @@
 {% extends "layout.html" %}
 
 {% block title %}
-ShekWrites
+    ShekWrites
 {% endblock %}
-
 <link href="style.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="file:///C:/Users/ninte/OneDrive/Desktop/download.png">
+
 {% block body %}
 <ul class = "nav">
-    <li id="a">ShekWrites</li>
+    <li id="a"><img src="/static/download.png"></li>
     <li><a href="/aboutme" selected id="bigger">About me</a></li>
     <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
-    <li id="b">Made by @delivey and @abhishekshahane.</li>
+    <li><a href="/contact" id="bigger">Contact me</a></li>
+    <li id="b">Made by @AbhishekShahane</li>
 </ul>
+<h1 id="center">About me!</h1>
+<div id="white">
+    <p id="smaller">
+        Hello World! I know most of you have come here thinking, this is going to be another boring blog, why should I read this? Well, the first reason you should read this is because all of the content written(and this whole website infact, is all 100% coded by me, using the languages HTML, CSS and Flask, if you've heard of them). But don't just come here because of that! I've also shared lots of information on the various topics which I write about, and also given my perspective on it. But without diving into my blog entries first, you might want to learn about me a little.
+    </p>s
+    <img src="/static/Bangalore.jpg" id="bangalore">
+    <p id="textbelow">The bustling city of Bangalore, with 12.34 million people.</p>
+</div>
 {% endblock %}
