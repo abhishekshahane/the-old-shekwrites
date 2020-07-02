@@ -6,6 +6,7 @@ body
     background-color: #FFF8DC;
     margin-top: -20px;
     margin-bottom: -20px;
+    background-image: url("/static/starrynight.jpg");
 }
 .nav
 {
@@ -35,7 +36,7 @@ li
 
 #b
 {
-    color : #FF4136;
+    color : #E9B000;
     padding-bottom: 45px;
 }
 #bigger
@@ -55,7 +56,6 @@ li
 {
     margin: auto;
     width: 70%;
-    text-transform: uppercase;
     background-color: white;
 }
 #center
@@ -64,14 +64,14 @@ li
     text-align: center;
     font-family: verdana;
     background-color: rgb(255, 242, 172);
-    background-image: linear-gradient(to right, rgb(255, 227, 89) 0%, rgb(255, 242, 172) 100%);
+    background-image: linear-gradient(to right, rgb(64, 197, 117) 0%, rgb(64, 197, 130) 100%);
 }
 #smaller
 {
     width: 85%;
     font-family: courier;
-    text-transform: uppercase;
     margin: auto;
+    padding-top: 25px;
 }
 table.blueTable {
   border: 4px solid #FFD93E;
@@ -161,7 +161,7 @@ table.blueTable:hover
   margin-right: 20px;
   width: 50%;
   margin: auto;
-  background-color: gray;
+  background-color: #FFAE42;
 }
 .centera
 {
@@ -183,11 +183,12 @@ table.blueTable:hover
 }
 #textbelow
 {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   text-align: center;
   font-family: helvetica;
   font-weight: 1000;
   font-size: 15px;
   text-shadow: 2px 2px 4px #000000;
-  color: aqua;
+  color: #FFCE00;
 }
+
