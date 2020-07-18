@@ -72,6 +72,7 @@ li
     font-family: courier;
     margin: auto;
     padding-top: 25px;
+    padding-bottom: 20px;
 }
 table.blueTable {
   border: 4px solid #FFD93E;
@@ -191,4 +192,10 @@ table.blueTable:hover
   text-shadow: 2px 2px 4px #000000;
   color: #FFCE00;
 }
-
+#copyrights
+{
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
