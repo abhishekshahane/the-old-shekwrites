@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block title %}
+    Article Editor
+{% endblock %}
+<link href="style.css" rel="stylesheet" type="text/css">
+{% block body %}
+<ul class = "nav">
+    <li id="a"><img src="/static/download.png"></li>
+    <li><a href="/aboutme" selected id="bigger">About me</a></li>
+    <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
+    <li><a href="/contact" id="bigger">Contact me</a></li>
+    <li><a href="/articleditor" id="bigger">Article Editor</a></li>
+    <li id="b">Made by @AbhishekShahane and @Delivey</li>
+</ul>
+<h1 id="center">Article Editor</h1>
+<textarea id="article" name="articlebox" rows="6" cols="100"></textarea>
+<br></br>
+<input type="submit" value="Submit" id="articlebutton">
+
+{% endblock %}

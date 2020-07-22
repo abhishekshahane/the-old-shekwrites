@@ -22,5 +22,8 @@ def cs50x():
 @app.route("/blogposts/book")
 def book():
     return render_template("book.html")
+@app.route("/articleditor")
+def articleditor():
+    return render_template("article.html")
 
 

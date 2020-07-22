@@ -64,7 +64,7 @@ li
     text-align: center;
     font-family: verdana;
     background-color: rgb(255, 242, 172);
-    background-image: linear-gradient(to right, rgb(64, 197, 117) 0%, rgb(64, 197, 130) 100%);
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
 }
 #smaller
 {
@@ -73,6 +73,26 @@ li
     margin: auto;
     padding-top: 25px;
     padding-bottom: 20px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+}
+/*
+Adding the keyframes for the 'bounce' declaration,
+very important.
+*/
+@keyframes bounce{
+  20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-15px);
+    }
+    70%{
+        transform: translateY(-10px);
+    }
+    90%{
+        transform: translateY(-2px);
+    }
 }
 table.blueTable {
   border: 4px solid #FFD93E;
@@ -162,7 +182,7 @@ table.blueTable:hover
   margin-right: 20px;
   width: 50%;
   margin: auto;
-  background-color: #FFAE42;
+  background-color: #90ee90;
 }
 .centera
 {
@@ -198,4 +218,40 @@ table.blueTable:hover
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
+}
+#articlebutton
+{
+  /*
+  Adding display, centering as well as making the edges a bit rounded.
+  */
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+}
+#article
+{
+  /*
+  Making the height and width appropriate, centering and converting
+  to block element.
+  */
+  margin: 0px;
+  width: 695px;
+  height: 398px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.dot {
+  /*
+  Making the dot small, with a little bit of margin, background
+  color set to gray, block display(in-lin) and transition.
+  Presents a nice looking dot.
+  */
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }

@@ -5,14 +5,22 @@
 {% endblock %}
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="file:///C:/Users/ninte/OneDrive/Desktop/download.png">
+<link rel="stylesheet" href="animate.min.css">
 
 {% block body %}
+<script>
+    alert("Hello, and welcome to ShekWrites!");
+    function nav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+</script>
 <ul class = "nav">
     <li id="a"><img src="/static/download.png"></li>
     <li><a href="/aboutme" selected id="bigger">About me</a></li>
     <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
     <li><a href="/contact" id="bigger">Contact me</a></li>
-    <li id="b">Made by @AbhishekShahane</li>
+    <li><a href="/articleditor" id="bigger">Article Editor</a></li>
+    <li id="b">Made by @AbhishekShahane and @Delivey</li>
 </ul>
 <h1 id="center">About me!</h1>
 <div id="white">
@@ -27,8 +35,19 @@
     <p id = "smaller">
         Also, my source code for this is located <a href="https://github.com/abhishekshahane/shekwrites">here on GitHub,</a> but please don't use it without my explicit permission. For contacting me about this, head over to my contact me page.
     </p>
+    <h1 id="center">We care about you!</h1>
+    <p id="smaller">Here at ShekWrites, we want you to have a good time. In fact, what makes us unique from other sites is that we guarantee that you will learn something from each and every article, regardless of what it is. Enjoy! :) - Abhishek</p>
+
+    <!Copyright Info..>
     <p id="copyrights">
         Copyrights for this entire website go to Abhishek Shahane.
     </p>
 </div>
+<br></br>
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
 {% endblock %}
