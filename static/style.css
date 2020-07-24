@@ -6,7 +6,7 @@ body
     background-color: #FFF8DC;
     margin-top: -20px;
     margin-bottom: -20px;
-    background-image: url("/static/starrynight.jpg");
+    background-image: url("/static/assets/starrynight.jpg");
 }
 .nav
 {

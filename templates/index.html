@@ -9,13 +9,18 @@
 
 {% block body %}
 <script>
-    alert("Hello, and welcome to ShekWrites!");
+    var n = 0
+    while (n == 0)
+    {
+        alert("Hello, and welcome to ShekWrites!");
+        n++;
+    }
     function nav() {
       document.getElementsByClassName("nav").style.width = "250px";
     }
 </script>
 <ul class = "nav">
-    <li id="a"><img src="/static/download.png"></li>
+    <li id="a"><img src="/static/assets/download.png"></li>
     <li><a href="/aboutme" selected id="bigger">About me</a></li>
     <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
     <li><a href="/contact" id="bigger">Contact me</a></li>
@@ -27,7 +32,7 @@
     <p id="smaller">
         Hello World! I know most of you have come here thinking, this is going to be another boring blog, why should I read this? Well, the first reason you should read this is because all of the content written(and this whole website infact, is all 100% coded by me, using the languages HTML, CSS and Flask, if you've heard of them). But don't just come here because of that! I've also shared lots of information on the various topics which I write about, and also given my perspective on it. But without diving into my blog entries first, you might want to learn about me a little.
     </p>
-    <img src="/static/Bangalore.jpg" id="bangalore">
+    <img src="/static/assets/Bangalore.jpg" id="bangalore">
     <p id="textbelow">The bustling city of Bangalore, with 12.34 million people.</p>
     <p id = "smaller">
          Lemme start talking. So basically, my name is Abhishek and I'm 13. I just started coding about 3 months ago, and I seem to really enjoy it. I took Harvard's CS50x course(which is how I am able to code this whole thing in the first place:)). Besides that, my favorite subjects are Math and Physics, and I like running long distances, playing table-tennis and photography. I am a very emotional person, as well as a big movie and TV show fan. I hope this tells you a little bit about me:) Have fun reading.
