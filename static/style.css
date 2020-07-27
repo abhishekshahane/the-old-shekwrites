@@ -270,3 +270,14 @@ table.blueTable:hover
 {
   background-image: url("/static/assets/blog.png");
 }
+#whitea
+{
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    background-image: url("/static/assets/mario.jpg");
+}
+/*
+Adding a separate class, cause this one has to be different
+from the normal class.
+*/
