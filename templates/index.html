@@ -4,21 +4,9 @@
     ShekWrites
 {% endblock %}
 <link href="style.css" rel="stylesheet" type="text/css">
-<link rel="icon" href="file:///C:/Users/ninte/OneDrive/Desktop/download.png">
-<link rel="stylesheet" href="animate.min.css">
 
 {% block body %}
-<script>
-    var n = 0
-    while (n == 0)
-    {
-        alert("Hello, and welcome to ShekWrites!");
-        n++;
-    }
-    function nav() {
-      document.getElementsByClassName("nav").style.width = "250px";
-    }
-</script>
+<script src="/static/main.js"></script>
 <ul class = "nav">
     <li id="a"><img src="/static/assets/download.png"></li>
     <li><a href="/aboutme" selected id="bigger">About me</a></li>
