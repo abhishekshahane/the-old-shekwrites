@@ -52,5 +52,8 @@ function a()
     n is clicked the first time, so it doesn't run
     for every single click.
     */
-    document.getElementById("count").textContent = count + " clicks";
+    // Also, displaying the clicks below the seconds using the 
+    // textContent feature.
+    document.getElementById("count").textContent = "Clicks: " + counts;
+    
 }
