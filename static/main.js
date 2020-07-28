@@ -28,18 +28,18 @@ function a()
                 var average = count / 30;
                 if (count > 120){
                     alert("Wow! You are pretty fast!")
-                    alert("Thanks for playing the click test, your score was " + count, + " Share it!");
+                    alert("Thanks for playing the click test, your score was " + count + " Share it!");
                     alert("Also, Your average was " + average + " CPS.");
                 }
                 else if (count > 100 && count < 120)
                 {
                     alert("Not bad, but you could improve.");
-                    alert("Thanks for playing the click test, your score was " + count, + " Share it!");
+                    alert("Thanks for playing the click test, your score was " + count + " Share it!");
                     alert("Also, Your average was " + average + " CPS.");
                 }
                 else{
                     alert("You can do better, try again by refreshing the page.");
-                    alert("Thanks for playing the click test, your score was " + count, + " Share it!");
+                    alert("Thanks for playing the click test, your score was " + count + " , Share it!");
                     alert("Also, Your average was " + average + " CPS.");
                 }
         }
@@ -52,9 +52,8 @@ function a()
     n is clicked the first time, so it doesn't run
     for every single click.
     */
+    
     // Also, displaying the clicks below the seconds using the
     // textContent feature.
     document.getElementById("count").textContent = "Clicks: " + count;
-
-}
 
