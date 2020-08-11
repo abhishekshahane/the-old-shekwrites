@@ -6,7 +6,7 @@ app = Flask(__name__, static_url_path='/static')
 def index():
     return render_template("index.html")
 
-@app.route("/blogposts")
+@app.route("/blogposts", methods=["GET", "POST"])
 def posts():
     return render_template("blogposts.html")
 
@@ -19,7 +19,7 @@ def contact():
 @app.route("/blogposts/cs50x")
 def cs50x():
     return render_template("cs50x.html")
-@app.route("/blogposts/book")
+@app.route("/blogposts/book", methods=["GET", "POST"])
 def book():
     return render_template("book.html")
 @app.route("/articleditor")

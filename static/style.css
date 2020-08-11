@@ -3,10 +3,10 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Arial', serif;
-    background-color: #FFF8DC;
     margin-top: -20px;
     margin-bottom: -20px;
     background-image: url("/static/assets/starrynight.jpg");
+    background-attachment: fixed;
 }
 .nav
 {
@@ -194,6 +194,7 @@ table.blueTable:hover
   margin: auto;
   background-color: #ff6961;
   display: block;
+  justify-content: center;
 }
 .centera
 {
@@ -269,6 +270,7 @@ table.blueTable:hover
 #init
 {
   background-image: url("/static/assets/blog.png");
+  background-attachment: fixed;
 }
 #whitea
 {
@@ -276,9 +278,22 @@ table.blueTable:hover
     width: 50%;
     background-color: white;
     background-image: url("/static/assets/replace_mario.png");
+    background-attachment: fixed;
 }
 /*
 Adding a separate class, cause this one has to be different
 from the normal class.
 */
+#font
+{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#medium
+{
+  display: block;
+  margin: auto;
+}
+
 

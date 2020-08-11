@@ -1,10 +1,11 @@
 var b = 1;
 function greet()
 {
-    // Greet only once.
-    while (b == 1){
-        alert("Hello, and welcome to ShekWrites!");
-        b--;
+    // Creating cookie here.
+    var alerted = localStorage.getItem('alerted') || '';
+    if (alerted != 'yes') {
+     alert("Hello, and welcome to ShekWrites! Please ensure that you have the latest version of your browser to have a smooth experience.");
+     localStorage.setItem('alerted','yes');
     }
 }
 // Function for future use.
