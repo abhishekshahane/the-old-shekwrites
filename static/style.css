@@ -1,3 +1,4 @@
+
 body
 {
     margin: 0;
@@ -15,7 +16,7 @@ body
     text-align: center;
     padding: 20px 0 0px 0;
     padding-top: 30px;
-    border-bottom: 5px solid #FFAE20;
+    border-bottom: 5px solid green;
 }
 margin-top
 {
@@ -180,8 +181,7 @@ table.blueTable:hover
 #header
 {
   font-size: 30px;
-  font-family: impact;
-  text-transform: uppercase;
+  font-family: sans-serif;
   text-align: center;
   color: black;
   padding-bottom: 25px;
@@ -190,9 +190,9 @@ table.blueTable:hover
 {
   padding: 20px;
   margin-right: 20px;
-  width: 50%;
+  width: 35%;
   margin: auto;
-  background-color: #ff6961;
+  background-color: #9999FF;
   display: block;
   justify-content: center;
 }
@@ -269,7 +269,7 @@ table.blueTable:hover
 }
 #init
 {
-  background-image: url("/static/assets/blog.png");
+  background-image: url("/static/assets/starrynight.jpg");
   background-attachment: fixed;
 }
 #whitea
@@ -294,6 +294,12 @@ from the normal class.
 {
   display: block;
   margin: auto;
+}
+.helvetica
+{
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+  font-family: helvetica;
+  text-align: center;
 }
 
 
