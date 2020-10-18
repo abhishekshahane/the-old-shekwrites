@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 body
 {
     margin: 0;
@@ -96,70 +96,6 @@ very important.
     90%{
         transform: translateY(-2px);
     }
-}
-table.blueTable {
-  border: 4px solid #FFD93E;
-  background-color: #C6EEC0;
-  width: 50%;
-  text-align: left;
-  border-collapse: collapse;
-  margin: auto;
-  height: 50%;
-  padding-top: 50px;
-}
-table.blueTable td, table.blueTable th {
-  border: 1px solid #AAAAAA;
-  padding: 3px 2px;
-}
-table.blueTable tbody td {
-  font-size: 13px;
-}
-table.blueTable tr:nth-child(even) {
-  background: #D0E4F5;
-}
-table.blueTable thead {
-  background: #9FA4A4;
-  background: -moz-linear-gradient(top, #b7bbbb 0%, #a8adad 66%, #9FA4A4 100%);
-  background: -webkit-linear-gradient(top, #b7bbbb 0%, #a8adad 66%, #9FA4A4 100%);
-  background: linear-gradient(to bottom, #b7bbbb 0%, #a8adad 66%, #9FA4A4 100%);
-  border-bottom: 2px solid #444444;
-}
-table.blueTable thead th {
-  font-size: 15px;
-  font-weight: bold;
-  color: #FFFFFF;
-  border-left: 2px solid #D0E4F5;
-}
-table.blueTable thead th:first-child {
-  border-left: none;
-}
-
-table.blueTable tfoot {
-  font-size: 14px;
-  font-weight: bold;
-  color: #FFFFFF;
-  background: #D0E4F5;
-  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-  border-top: 2px solid #444444;
-}
-table.blueTable tfoot td {
-  font-size: 14px;
-}
-table.blueTable tfoot .links {
-  text-align: right;
-}
-table.blueTable tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-table.blueTable:hover
-{
-    box-shadow: rgba(58, 59, 69, 0.35) 0px 0px 70px 6px;
 }
 #cs50
 {
@@ -301,5 +237,36 @@ from the normal class.
   font-family: helvetica;
   text-align: center;
 }
-
-
+#white-large
+{
+  /*
+  Block level element
+  */
+  display: block;
+  margin: auto;
+  background-color: white;
+  width: 60%;
+}
+.grid-container{
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* Set Row height */
+  grid-auto-rows: 150px;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+white-large:hover{
+  box-shadow: rgba(58, 59, 69, 0.35) 0px 0px 70px 6px;
+}
+.text-for-img{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.img-onhover:hover{
+  -webkit-box-shadow: 0px -2px 23px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -2px 23px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px -2px 23px 2px rgba(0,0,0,0.75);
+}

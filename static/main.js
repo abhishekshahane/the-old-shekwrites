@@ -4,7 +4,7 @@ function greet()
     // Creating cookie here.
     var alerted = localStorage.getItem('alerted') || '';
     if (alerted != 'yes') {
-     alert("Hello, and welcome to ShekWrites! Please ensure that you have the latest version of your browser to have a smooth experience.");
+     alert("Hello, and welcome to ShekWrites! Please ensure that you have the latest version of your browser to have a smooth experience, and make sure that you are using a laptop(and not a phone). Thank you!");
      localStorage.setItem('alerted','yes');
     }
 }
