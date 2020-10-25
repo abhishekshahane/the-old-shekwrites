@@ -1,7 +1,10 @@
 from flask import Flask, redirect, render_template, request
 
 app = Flask(__name__, static_url_path='/static')
-
+#First handle 404 errors
+@app.errorhandler(404)
+def not_found(e):
+    return render_template("404.html")
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -25,5 +28,6 @@ def book():
 @app.route("/articleditor")
 def articleditor():
     return render_template("article.html")
+
 
 

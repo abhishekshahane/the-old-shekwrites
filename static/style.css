@@ -100,8 +100,8 @@ very important.
 #cs50
 {
   text-align: center;
-  height: 300px;
-  width: 350px;
+  height: 50%;
+  width: 50%;
   display: block;
   margin: 0 auto;
 
@@ -109,8 +109,8 @@ very important.
 #picture1
 {
   text-align: center;
-  height: 305px;
-  width: 350px;
+  height: 50%;
+  width: 50%;
   display: block;
   margin: 0 auto;
 }
