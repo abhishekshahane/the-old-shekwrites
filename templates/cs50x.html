@@ -1,11 +1,13 @@
 {% extends "index.html" %}
 {% block title %}
+{% extends "index.html" %}
+{% block title %}
 CS50x
 {% endblock %}
 <link href="/static/style.css" rel="stylesheet">
 {% block body %}
 <ul class = "nav">
-    <li id="a"><img src="/static/assets/download.png"></li>
+    <a href="/"><li id="a"><img src="/static/assets/download.png"></li></a>
     <li><a href="/aboutme" selected id="bigger">About me</a></li>
     <li><a href="/blogposts" id="bigger">Blog Posts</a></li>
     <li><a href="/contact" id="bigger">Contact me</a></li>
