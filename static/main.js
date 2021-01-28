@@ -9,10 +9,7 @@ function greet()
     }
 }
 // Function for future use.
-function nav()
-{
-    document.getElementsByClassName("nav").style.width = "250px";
-}
+
 var n = 1;
 var count = 0;
 function a()
